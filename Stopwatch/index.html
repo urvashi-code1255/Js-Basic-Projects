@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+</head>
+
+<body>
+    <div class="div">
+        <h1 class="displayCounter"><span class="seconds">00</span>:<span class="milliSeconds">00</span></h1>
+        <button class="start btn btn-primary ">Start</button>
+        <button class="reset btn btn-secondary">Reset</button>
+        <button class="stop btn btn-secondary ">Stop</button>
+    </div>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .div {
+            width: 100%;
+            margin: auto;
+            text-align: center;
+        }
+
+        .start{
+            color: greenyellow;
+            background-color: green;
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+
+        .reset{
+            color: black;
+            background-color: grey;
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+
+        .stop{
+            color: rgb(236, 182, 81);
+            background-color: rgb(197, 21, 21);
+            padding: 0.2rem 0.5rem;
+            border-radius: 25%;
+            cursor: pointer;
+            transform: scale(0.9);
+        }
+
+        .start:hover{
+            transform: scale(1);
+            opacity: 0.8;
+        }
+
+        .reset:hover{
+            transform: scale(1);
+            opacity: 0.8;
+        }
+
+        .stop:hover{
+            transform: scale(1);
+            opacity: 0.8;
+        }
+
+    </style>
+    <script src="script.js"></script>
+</body>
+
+</html>
